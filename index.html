@@ -6,6 +6,29 @@
 <title>Termos - I Can Say</title>
 <link rel="icon" href="src/icansay%20icon.png" type="image/png">
 <style>
+
+    img {
+      width: 100px;
+      position: relative;
+      animation: descer 1s ease-out forwards;
+    }
+
+   @keyframes descer {
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.descendo {
+  position: relative;
+  animation: descer 1s ease-out forwards;
+}
+
   body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -71,19 +94,21 @@
     <body>
 
         <header>
-            <div class="sublinhado">
-            <a href="https://discord.gg/GA8SGd6hJ7" target="_blank">
-                <img  class="discord" src="src/image-removebg-preview (3).png" alt="discord">
-            </a>
-            <a href="https://www.youtube.com/@ican_say" target="_blank">
-                <img class="youtube" src="src/image-removebg-preview (5) - Copia.png" alt="">
-            </a>
-            <a href="https://www.instagram.com/icans4y?igsh=OW15NWNydmFvbHVi" target="_blank">
-                <img class="instagram" src="src/image-removebg-preview (6).png" alt="">
-            </a>
-            <a href="https://github.com/I-Can-Say-Oficial" target="_blank">
-                <img class="github" src="src/github.png" alt="">
-            </a>
+            <div class="descer">
+                <div class="sublinhado">
+                <a href="https://discord.gg/GA8SGd6hJ7" target="_blank">
+                    <img class="discord" src="src/image-removebg-preview (3).png" alt="discord">
+                </a>
+                <a href="https://www.youtube.com/@ican_say" target="_blank">
+                    <img class="youtube" src="src/image-removebg-preview (5) - Copia.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/icans4y?igsh=OW15NWNydmFvbHVi" target="_blank">
+                    <img class="instagram" src="src/image-removebg-preview (6).png" alt="">
+                </a>
+                <a href="https://github.com/I-Can-Say-Oficial" target="_blank">
+                    <img class="github" src="src/github.png" alt="">
+                </a>
+            </div>
             </div>
         </header>
             
